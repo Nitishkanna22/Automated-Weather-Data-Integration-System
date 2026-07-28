@@ -64,9 +64,13 @@ Then open http://127.0.0.1:8000/.
   in `weather_web/settings.py` as `PIPELINE_MAX_DAYS` /
   `PIPELINE_MAX_CITIES`, since a browser form is easier to fat-finger
   into a huge request than a CLI flag.
+
+  
 - The **local SQLite DB only stores run metadata** (`PipelineRun`), never
   weather observations — those still live exclusively in BigQuery, loaded
   by the unmodified `Loader.py`.
 - For production: set `DJANGO_DEBUG=0`, a real `DJANGO_SECRET_KEY`, and
   `DJANGO_ALLOWED_HOSTS`, then run behind gunicorn/uwsgi + a real
   webserver instead of `runserver`.
+
+  ## Frontend of the Website 
