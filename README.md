@@ -73,7 +73,7 @@ Then open http://127.0.0.1:8000/.
   `DJANGO_ALLOWED_HOSTS`, then run behind gunicorn/uwsgi + a real
   webserver instead of `runserver`.
 
-## Frontend of the Website 
+## Interface of the Project
 
 ![image_alt](https://github.com/Nitishkanna22/Automated-Whether-Data-Website/blob/b28a29e6706144c5e5a4324285a761bdf48ed4a8/Front%20Page.png)
 ![image_alt](https://github.com/Nitishkanna22/Automated-Whether-Data-Website/blob/af4dc5358dd25ab5d45e3bb1273102ab75fd550b/Front%20page%20search%20results.png)
