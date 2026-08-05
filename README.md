@@ -50,8 +50,6 @@ python manage.py createsuperuser   # optional, for /admin/
 python manage.py runserver
 ```
 
-Then open http://127.0.0.1:8000/.
-
 ## Notes
 
 - **BigQuery auth** works the same as it does for `Pipeline.py` today —
